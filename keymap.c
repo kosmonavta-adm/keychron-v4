@@ -7,7 +7,6 @@ enum layers {
   _FN0,
   _FN1,
   _FN2,
-  _FN3
 };
 
 enum keycodes {
@@ -85,7 +84,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t * record) {
   case KC_SELECTION:
     if (!record -> event.pressed) {
       return false;
-
     }
 
     if (keyboard_report->mods & MOD_BIT(KC_LSFT)) {
@@ -96,7 +94,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t * record) {
 					return false;
 				}
 
-
     return false;
 
     break;
@@ -104,7 +101,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t * record) {
   case KC_SYMBOL:
     if (!record -> event.pressed) {
       return false;
-
     }
 
     if (keyboard_report->mods & MOD_BIT(KC_LSFT)) {
