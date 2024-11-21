@@ -1,14 +1,17 @@
-BOOTMAGIC_ENABLE = yes
-MOUSEKEY_ENABLE = no
-EXTRAKEY_ENABLE = yes
-CONSOLE_ENABLE = no
-COMMAND_ENABLE = no
-NKRO_ENABLE = yes
-BACKLIGHT_ENABLE = no
-RGBLIGHT_ENABLE = no
-AUDIO_ENABLE = no
+# Build Options
+#   change yes to no to disable.
+#
+BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
+MOUSEKEY_ENABLE = no       # Mouse keys
+EXTRAKEY_ENABLE = yes       # Audio control and System control
+CONSOLE_ENABLE = no         # Console for debug
+COMMAND_ENABLE = no         # Commands for debug and configuration
+NKRO_ENABLE = yes           # Enable USB N-key Rollover
+BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
+RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
+AUDIO_ENABLE = no           # Audio output
 DIP_SWITCH_ENABLE = yes
 RGB_MATRIX_ENABLE = yes
 KEY_OVERRIDE_ENABLE = yes
 CAPS_WORD_ENABLE = yes
-LEADER_ENABLE = yes
+LEADER_ENABLE = no
